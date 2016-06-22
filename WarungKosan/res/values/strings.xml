@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WarungKosan</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_carikosan">Carikosan</string>
+    <string name="title_activity_pasangkamar">Pasangkamar</string>
+    <string name="title_activity_daftar">Daftar</string>
+    <string name="title_activity_masuk">Masuk</string>
+    <string name="title_activity_setelahlogin">Setelahlogin</string>
+    <string name="title_activity_logout">Logout</string>
+    <string name="title_activity_formiklan">Formiklan</string>
+    <string name="title_activity_riwayat_iklan">Riwayat_iklan</string>
+    <string name="title_activity_list_item_ksn">List_item_ksn</string>
+    <string name="title_activity_show">Show</string>
+    <string name="title_activity_ubah_hapus">Ubah_hapus</string>
+
+</resources>

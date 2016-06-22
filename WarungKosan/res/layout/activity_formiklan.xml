@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Formiklan" >
+
+    <EditText
+        android:id="@+id/harga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/telponkosan"
+        android:layout_alignLeft="@+id/alamat"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/telpon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/hubungi"
+        android:layout_toRightOf="@+id/login"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="68dp"
+        android:text="Pasang" />
+
+    <TextView
+        android:id="@+id/hubungi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/telponkosan"
+        android:layout_below="@+id/telponkosan"
+        android:layout_marginTop="35dp"
+        android:text="No. Telpon" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Form Iklan Kosan Anda " />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/nama"
+        android:layout_alignLeft="@+id/login"
+        android:text="Nama Kos" />
+
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/alamat"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="34dp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/namakosan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/alamat"
+        android:layout_alignLeft="@+id/status"
+        android:text="Alamat" />
+
+    <TextView
+        android:id="@+id/telponkosan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/namakosan"
+        android:layout_below="@+id/namakosan"
+        android:layout_marginTop="33dp"
+        android:text="Harga" />
+
+    <EditText
+        android:id="@+id/alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/telpon"
+        android:layout_below="@+id/nama"
+        android:layout_marginTop="16dp"
+        android:ems="10" />
+
+</RelativeLayout>

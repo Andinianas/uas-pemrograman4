@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.warungkosan"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.warungkosan.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.warungkosan.Carikosan"
+            android:label="@string/title_activity_carikosan" >
+        </activity>
+        <activity
+            android:name="com.example.warungkosan.Pasangkamar"
+            android:label="@string/title_activity_pasangkamar" >
+        </activity>
+        <activity
+            android:name="com.example.warungkosan.Daftar"
+            android:label="@string/title_activity_daftar" >
+        </activity>
+        <activity
+            android:name="com.example.warungkosan.Masuk"
+            android:label="@string/title_activity_masuk" >
+        </activity>
+        <activity
+            android:name="com.example.warungkosan.Setelahlogin"
+            android:label="@string/title_activity_setelahlogin" >
+        </activity>
+        <activity
+            android:name="com.example.warungkosan.Logout"
+            android:label="@string/title_activity_logout" >
+        </activity>
+        <activity
+            android:name="com.example.warungkosan.Formiklan"
+            android:label="@string/title_activity_formiklan" >
+        </activity>
+        <activity
+            android:name="com.example.warungkosan.Riwayat_iklan"
+            android:label="@string/title_activity_riwayat_iklan" >
+        </activity>
+        <activity
+            android:name="com.example.warungkosan.List_item_ksn"
+            android:label="@string/title_activity_list_item_ksn" >
+        </activity>
+        <activity
+            android:name="com.example.warungkosan.Show"
+            android:label="@string/title_activity_show" >
+        </activity>
+        <activity
+            android:name="com.example.warungkosan.Ubah_hapus"
+            android:label="@string/title_activity_ubah_hapus" >
+        </activity>
+    </application>
+
+</manifest>
